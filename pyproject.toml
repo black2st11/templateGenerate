@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "template"
+version = "0.1.0"
+description = ""
+authors = ["문정훈 <black2st11@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.75.1"
+uvicorn = "^0.17.6"
+celery = "^5.2.3"
+Pillow = "^9.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
